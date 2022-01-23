@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "IPhone",
+      "price": 198000,
+      "quantity": 125,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Galaxy samsung 657x",
+      "price": 19000,
+      "quantity": 220,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "scanner VCDF",
+      "price": 182000,
+      "quantity": 700,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "tablette",
+      "price": 182000,
+      "quantity": 700,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "watches",
+      "price": 182000,
+      "quantity": 700,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 7,
+      "name": "earpod",
+      "price": 500,
+      "quantity": 1200,
+      "selected": false,
+      "available": true
+    },
+    {
+      "name": "samsung galaxy 9",
+      "price": 1200000,
+      "quantity": 600,
+      "selected": true,
+      "available": true,
+      "id": 8
+    }
+  ]
+}
