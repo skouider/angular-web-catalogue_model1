@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ProductsService } from 'src/app/services/products.service';
+import { ProductsComponent } from '../products.component';
 
 @Component({
   selector: 'app-product-edit',
@@ -15,7 +16,7 @@ export class ProductEditComponent implements OnInit {
   submitted?:boolean
 
   constructor(private activatedRoute:ActivatedRoute,
-     private service:ProductsService,private router:Router,
+     private service:ProductsService,
       private formBuilder:FormBuilder) { 
     this.productId = this.activatedRoute.snapshot.params.id 
   }
@@ -39,7 +40,7 @@ export class ProductEditComponent implements OnInit {
     this.service.updateProduct(this.productFormGroup.value)
     .subscribe(data=>{
       alert("success updating ....")
-      this.router.navigateByUrl('/products')
+       
     },err=>{
       console.log(err);
             

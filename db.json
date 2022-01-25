@@ -10,10 +10,10 @@
     },
     {
       "id": 3,
-      "name": "Galaxy samsung 657x",
+      "name": "Galaxy samsung ",
       "price": 19000,
       "quantity": 220,
-      "selected": false,
+      "selected": true,
       "available": true
     },
     {
@@ -39,22 +39,6 @@
       "quantity": 700,
       "selected": true,
       "available": true
-    },
-    {
-      "id": 7,
-      "name": "earpod",
-      "price": 500,
-      "quantity": 1200,
-      "selected": false,
-      "available": true
-    },
-    {
-      "name": "samsung galaxy 9",
-      "price": 1200000,
-      "quantity": 600,
-      "selected": true,
-      "available": true,
-      "id": 8
     }
   ]
 }
